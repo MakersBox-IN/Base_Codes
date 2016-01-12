@@ -25,6 +25,7 @@ void loop()
   digitalWrite(trig, HIGH);
   delayMicroseconds(5);
   digitalWrite(trig, LOW);
+  
   // The same pin is used to read the signal from the PING))): a HIGH
   // pulse whose duration is the time (in microseconds) from the sending
   // of the ping to the reception of its echo off of an object.
