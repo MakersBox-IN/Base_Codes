@@ -1,3 +1,10 @@
+ /*
+ The circuit:
+ * VCC to digital pin 2
+ * TRIG to digital pin 3
+ * ECHO to digital pin 4
+ * GND to digital pin 5
+*/
 int vcc = 2; //attach pin 2 to vcc
 int trig = 3; // attach pin 3 to Trig
 int echo = 4; //attach pin 4 to Echo
